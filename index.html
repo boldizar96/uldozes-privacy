@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adatvédelmi tájékoztató – Üldözés</title>
+<meta name="description" content="Az Üldözés mobilapp adatvédelmi tájékoztatója.">
+<style>
+  :root { --bg:#ffffff; --surface:#f2f3f5; --text:#111315; --muted:#5f6368; --accent:#1e8e3e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111315; --surface:#1e2124; --text:#f5f5f5; --muted:#a8adb4; --accent:#81c995; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:17px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 20px 64px; }
+  .brand { color:var(--accent); font-weight:800; font-size:20px; letter-spacing:.2px; }
+  h1 { font-size:30px; line-height:1.2; margin:12px 0 4px; }
+  .updated { color:var(--muted); margin:0 0 32px; }
+  section { background:var(--surface); border-radius:16px; padding:20px 22px; margin:0 0 16px; }
+  h2 { font-size:19px; margin:0 0 6px; }
+  p { margin:0; }
+  .contact { margin-top:28px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">Üldözés</div>
+  <h1>Adatvédelmi tájékoztató</h1>
+  <p class="updated">Hatályos: 2026. november</p>
+  <section>
+    <h2>Kik vagyunk?</h2>
+    <p>Az Üldözés egy GPS-alapú fogócska-játék. Ez a tájékoztató leírja, milyen adatokat kezel az app, mire és meddig.</p>
+  </section>
+  <section>
+    <h2>Fiók és profil</h2>
+    <p>A regisztrációhoz az e-mail-címedet és egy jelszót kérünk; a jelszót csak titkosított formában tároljuk. A megjelenített nevedet és az opcionális profilképedet a csoportjaid tagjai látják.</p>
+  </section>
+  <section>
+    <h2>Helyadatok</h2>
+    <p>A pozíciódat kizárólag futó játék alatt gyűjtjük, a háttérben is, hogy a játék a zárolt képernyővel is működjön. A nyers pozíciót semmilyen más felhasználó nem láthatja; az üldözők csak a beállított időközönként készülő helyzetjelentést látják az üldözöttekről. A nyers pozíciók a játék vége után legfeljebb 1 órán belül törlődnek, a helyzetjelentések és a területelhagyási események 90 nap után.</p>
+  </section>
+  <section>
+    <h2>Értesítések</h2>
+    <p>A push értesítésekhez az eszközöd értesítési azonosítóját tároljuk. Kijelentkezéskor vagy a fiók törlésekor ez is törlődik. Az értesítések szövege soha nem tartalmaz pozíciót.</p>
+  </section>
+  <section>
+    <h2>Kivel osztjuk meg?</h2>
+    <p>Az adatokat nem adjuk el és nem használjuk hirdetésre. A szolgáltatás üzemeltetéséhez adatfeldolgozókat veszünk igénybe: Supabase (adatbázis és tárhely), Expo (push értesítések továbbítása), Apple és Google (értesítések kézbesítése, térkép).</p>
+  </section>
+  <section>
+    <h2>A jogaid</h2>
+    <p>A nevedet és a képedet bármikor módosíthatod. A fiókodat az appban, a Profil oldalon törölheted; ekkor minden kapcsolódó adatod véglegesen törlődik. Kérdés vagy panasz esetén írj nekünk, illetve fordulhatsz a Nemzeti Adatvédelmi és Információszabadság Hatósághoz (NAIH) is.</p>
+  </section>
+  <p class="contact">Kapcsolat: <a href="mailto:boldizar96+uldozes@gmail.com">boldizar96+uldozes@gmail.com</a></p>
+</main>
+</body>
+</html>
